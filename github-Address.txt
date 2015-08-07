@@ -10,5 +10,3 @@ https://github.com/terrymanu/miracle-framework/tree/master/miracle-framework-rem
 ls
 git status
 git log
-
-nothing sepecial,just a simple test.
