@@ -12,6 +12,7 @@ public class HelloGithub {
 		System.out.println("This is Branch1 speaking.");
 		System.out.println("This is Branch2 speaking.");
 		System.out.println("This is Branch2 speaking.");
+		System.out.println("This is Branch2 speaking 3.");
 	}
 
 }
