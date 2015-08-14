@@ -10,6 +10,8 @@ public class HelloGithub {
 		// TODO Auto-generated method stub
 		System.out.println("Hello GitHub,working well with Maven and Eclipse.");
 		System.out.println("This is Branch1 speaking.");
+		System.out.println("This is Branch2 speaking.");
+		System.out.println("This is Branch2 speaking.");
 	}
 
 }
