@@ -1,0 +1,43 @@
+Test
+https://github.com/dingfang/Test.git
+
+
+使用Netty实现多路复用的client
+https://github.com/terrymanu/miracle-framework/tree/master/miracle-framework-remote/miracle-framework-remote-netty
+
+
+命令：
+ls
+git status
+git log
+
+
+在客户端，pipeline.addLast("readtime",new ReadTimeoutHandler(50000)); 
+是不是说，过了50秒，没有任何读写操作，就自动关闭连接，而不需要我们程序员自己去关闭连接吧 ?
+
+ReadTimeoutHandler 会主动关闭连接  
+建议使用IdleStateHandler 自己监控并处理(根据自己的需求调整读超时 写超时 空闲事件  是否关闭等自己的业务
+
+
+在github上创建仓库：
+Create a new repository on the command line
+
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/BrentHuang/MyRepo.git
+git push -u origin master
+
+
+在本地新建一个分支： git branch Branch1
+切换到你的新分支: git checkout Branch1
+将新分支发布在github上： git push origin Branch1
+在本地删除一个分支： git branch -d Branch1
+在github远程端删除一个分支： git push origin :Branch1   (分支名前的冒号代表删除)
+
+直接使用git pull和git push的设置
+git branch --set-upstream-to=origin/master master 
+git branch --set-upstream-to=origin/ThirdParty ThirdParty
+git config --global push.default matching
